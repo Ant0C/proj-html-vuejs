@@ -1,23 +1,23 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-
-createApp(App).mount('#app')
-
-
 // import { createApp } from 'vue'
 // import App from './App.vue'
 
+// createApp(App).mount('#app')
 
-// import { library } from '@fortawesome/fontawesome-svg-core'
 
-// import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { createApp } from 'vue'
+import App from './App.vue'
 
-// import { facartshopping } from '@fortawesome/free-solid-svg-icons'
 
-// library.add(facartshopping)
+import { library } from '@fortawesome/fontawesome-svg-core'
 
-// createApp(App)
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-//     .component('font-awesome-icon', FontAwesomeIcon)
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 
-//     .mount('#app')
+library.add(faCartShopping)
+
+createApp(App)
+
+    .component('font-awesome-icon', FontAwesomeIcon)
+
+    .mount('#app')

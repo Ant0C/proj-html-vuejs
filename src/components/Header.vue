@@ -1,4 +1,5 @@
 <script>
+import Hero from './Hero.vue';
 
 export default {
   data() {
@@ -28,6 +29,10 @@ export default {
       ]
     }
   },
+  components: {
+    Hero
+  }
+
 }
 </script>
 
@@ -46,31 +51,28 @@ export default {
           </ul>
         </div>
         <div class="col-account">
-          MY ACCOUNT
-          <!-- <font-awesome-icon icon="fa-solid fa-cart-shopping" /> -->
+          ACCOUNT<font-awesome-icon icon="fa-solid fa-cart-shopping" />
         </div>
       </div>
     </div>
   </nav>
+  <hero></hero>
 </template>
 
 <style lang="scss" scoped>
 @use '../src/style/general.scss' as *;
 
-nav {
-  background-color: #F3E7F1;
-}
-
 .row {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 
   .col-logo,
   .col-menu,
   .col-account {
     flex-basis: calc(100%/3);
-    font-family: 'Source Serif Pro', serif;
   }
 
   .col-logo {
