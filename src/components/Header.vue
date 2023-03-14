@@ -56,7 +56,7 @@ export default {
       </div>
     </div>
   </nav>
-  <hero></hero>
+  <Hero></hero>
 </template>
 
 <style lang="scss" scoped>
