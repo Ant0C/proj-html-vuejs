@@ -5,13 +5,13 @@
     <div class="banner">
         <div class="row">
             <div class="col-banner">
-                <ul>
-                    <li class="motto">TRY OUR SEASONAL PRODUCTS</li>
-                    <li class="title">
+                <div>
+                    <div class="motto">TRY OUR SEASONAL PRODUCTS</div>
+                    <div class="title">
                         <h2>Order for pick-up or delivery to your home</h2>
-                    </li>
-                    <li class="button">Shop Now</li>
-                </ul>
+                    </div>
+                    <a href="#" class="button">Shop Now</a>
+                </div>
             </div>
         </div>
     </div>
@@ -55,7 +55,7 @@
 
             .button {
                 width: 15%;
-                padding: 10px 15px 10px 15px;
+                padding: 15px 20px;
                 color: #282d2c;
                 font-size: 18px;
                 background-color: white;
@@ -63,6 +63,12 @@
                 border-radius: 6px;
                 font-family: 'Roboto', sans-serif;
                 font-weight: 300;
+            }
+
+            .button:hover {
+                color: #ffffff;
+                background-color: #5b2ca2;
+                transition: all .2s;
             }
         }
     }

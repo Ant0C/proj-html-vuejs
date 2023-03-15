@@ -51,12 +51,15 @@ export default {
           </ul>
         </div>
         <div class="col-account">
-          ACCOUNT<font-awesome-icon icon="fa-solid fa-cart-shopping" />
+          <a href="#">
+            <span>ACCOUNT</span>
+            <font-awesome-icon icon="fa-solid fa-cart-shopping" class="icon" />
+          </a>
         </div>
       </div>
     </div>
   </nav>
-  <Hero></hero>
+  <Hero></Hero>
 </template>
 
 <style lang="scss" scoped>
@@ -94,6 +97,11 @@ export default {
         padding: 0.4rem;
         font-size: 0.75rem;
       }
+
+      li :hover {
+        border-bottom: 2px solid #5b2ca2;
+        padding-bottom: 10px;
+      }
     }
   }
 
@@ -103,6 +111,11 @@ export default {
     text-align: end;
     color: #5b2ca2;
     font-size: 0.75rem;
+
+    .icon {
+      margin-left: 5px;
+      font-size: 0.75rem;
+    }
   }
 }
 </style>

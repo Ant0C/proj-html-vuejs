@@ -53,7 +53,7 @@
 
         .button {
             width: 40%;
-            padding: 10px 10px 10px 10px;
+            padding: 10px;
             color: #ffffff;
             font-size: 18px;
             background-color: #5b2ca2;

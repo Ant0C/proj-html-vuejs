@@ -9,15 +9,18 @@
                     <img src="/img/social-1.jpg" alt="ok">
                 </div>
                 <div class="call-to-action">
-                    <ul>
-                        <li class="motto">
+                    <div>
+                        <div class="motto">
                             <h2>MADE FOR SHARING</h2>
-                        </li>
-                        <li class="title">
+                        </div>
+                        <div class="title">
                             Let's stay in touch
-                        </li>
-                        <li class="button"><font-awesome-icon icon="fa-brands fa-instagram" class="icon" />Follow Us</li>
-                    </ul>
+                        </div>
+                        <a href="#" class="button">
+                            <font-awesome-icon icon="fa-brands fa-instagram" class="icon" />
+                            Follow Us
+                        </a>
+                    </div>
                 </div>
                 <div>
                     <img src="/img/social-2.jpg" alt="ok">
@@ -104,6 +107,12 @@
                 .icon {
                     margin-right: 5px
                 }
+            }
+
+            .button:hover {
+                color: #5b2ca2;
+                background-color: #ffffff;
+                transition: all .2s;
             }
         }
     }

@@ -1,6 +1,9 @@
 <script>
 
 export default {
+    data() {
+        return {}
+    }
 }
 </script>
 
@@ -14,10 +17,16 @@ export default {
                         <li class="title">
                             <h2>The Perfect Fresh Bread</h2>
                         </li>
-                        <li class="description">Cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius.
+                        <li class="description">
+                            Cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius.
                             Aliquam erat volutpat.
-                            Nullam quis sagittis nibh ac nulla id orci tempor.</li>
-                        <li class="button">Explore our products</li>
+                            Nullam quis sagittis nibh ac nulla id orci tempor.
+                        </li>
+                        <li class="button">
+                            <a href="#">
+                                Explore our products
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -79,7 +88,7 @@ export default {
             .button {
                 width: 45%;
                 padding: 10px 15px 10px 15px;
-                color: #282d2c;
+                color: #5b2ca2;
                 font-size: 18px;
                 background-color: white;
                 text-align: center;
@@ -87,8 +96,12 @@ export default {
                 font-family: 'Roboto', sans-serif;
                 font-weight: 300;
             }
-        }
 
+            .button:hover {
+                color: #ffffff;
+                background-color: #5b2ca2;
+            }
+        }
     }
 }
 </style>

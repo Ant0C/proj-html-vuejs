@@ -25,7 +25,7 @@
                             <p>OPEN ALL WEEK</p>
                             <p class="info">9:00 AM - 6:00 PM</p>
                         </div>
-                        <div class="button">View Map</div>
+                        <a href="#" class="button"> View Map</a>
                     </div>
                 </div>
                 <div class="col-location-lo">
@@ -40,7 +40,7 @@
                             <p>OPEN ALL WEEK </p>
                             <p class="info"> 9:00 AM - 6:00 PM</p>
                         </div>
-                        <div class="button">View Map</div>
+                        <a href="#" class="button">View Map</a>
                     </div>
                 </div>
             </div>
@@ -79,7 +79,7 @@
     }
 
     .button {
-        padding: 10px 10px 10px 10px;
+        padding: 10px;
         color: #B1ADAB;
         font-size: 18px;
         background-color: #ffffff;
@@ -88,6 +88,13 @@
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
     }
+
+    .button:hover {
+        color: #e9dedc;
+        background-color: #5b2ca2;
+        transition: all .2s;
+    }
+
 
     .col-location {
         display: flex;

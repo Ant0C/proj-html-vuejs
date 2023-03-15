@@ -5,14 +5,14 @@
     <div class="container">
         <div class="row">
             <div class="col-description">
-                <ul>
-                    <li class="motto">OUR PRODUCTS</li>
-                    <li class="title">
+                <div>
+                    <div href="#" class="motto">OUR PRODUCTS</div>
+                    <div href="#" class="title">
                         <h2>All our delectable pastries are backed fresh in our Kitchen very morning, and are made with
                             all-natural, all organic ingredients.</h2>
-                    </li>
-                    <li class="button">Buy Avada Today!</li>
-                </ul>
+                    </div>
+                    <a href="#" class="button">Buy Avada Today!</a>
+                </div>
             </div>
             <div class="col-img">
                 <img src="/img/choco-chip-cookies-500x638.jpg" alt="ok">
@@ -62,7 +62,7 @@
 
         .button {
             width: 40%;
-            padding: 10px 10px 10px 10px;
+            padding: 10px;
             color: #ffffff;
             font-size: 18px;
             background-color: #5b2ca2;
@@ -71,7 +71,11 @@
             font-family: 'Roboto', sans-serif;
             font-weight: 300;
         }
-    }
 
+        .button :hover {
+            color: #5b2ca2;
+            background-color: #ffffff;
+        }
+    }
 }
 </style>

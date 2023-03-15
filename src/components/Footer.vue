@@ -67,15 +67,23 @@ export default {
                 </div>
                 <div class="col-call-to-action">
                     <input class="text-area" type="text" placeholder="Enter Email address*">
-                    <span class="button">
+                    <a href="#" class="button">
                         Subscribe
-                    </span>
+                    </a>
                 </div>
                 <div class="col_icon_social">
-                    <font-awesome-icon icon="fa-brands fa-instagram" />
-                    <font-awesome-icon icon="fa-brands fa-twitter" />
-                    <font-awesome-icon icon="fa-brands fa-facebook" />
-                    <font-awesome-icon icon="fa-brands fa-pinterest-p" />
+                    <a href="#">
+                        <font-awesome-icon icon="fa-brands fa-instagram" />
+                    </a>
+                    <a href="#">
+                        <font-awesome-icon icon="fa-brands fa-twitter" />
+                    </a>
+                    <a href="#">
+                        <font-awesome-icon icon="fa-brands fa-facebook" />
+                    </a>
+                    <a href="#">
+                        <font-awesome-icon icon="fa-brands fa-pinterest-p" />
+                    </a>
                 </div>
             </div>
         </div>
@@ -113,6 +121,9 @@ footer {
         .col_nav_menu {
             margin-top: 45px;
             margin-bottom: 130px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+
 
             ul {
                 display: flex;
@@ -178,17 +189,22 @@ footer {
             .text-area {
                 width: 50%;
                 margin-right: 10px;
-                padding: 10px 15px 10px 15px;
+                padding: 15px 20px;
                 color: #ffffff;
                 font-size: 14px;
                 text-align: left;
                 border-radius: 6px;
-                border: 1px solid #878589;
+                border: 1px solid #e9dedc;
+            }
+
+            .text-area:hover {
+                border: 1px solid #5b2ca2;
+                transition: all .2s;
             }
 
             .button {
                 width: 15%;
-                padding: 10px 15px 10px 15px;
+                padding: 15px 20px;
                 color: #ffffff;
                 font-size: 15px;
                 background-color: #5b2ca2;
@@ -198,15 +214,30 @@ footer {
                 font-weight: 300;
             }
 
+            .button:hover {
+                color: #5b2ca2;
+                background-color: #e9dedc;
+                transition: all .2s;
+            }
+
         }
 
         .col_icon_social {
             display: flex;
             align-self: self-end;
-            gap: 30px;
+            gap: 22px;
             color: #5b2ca2;
             font-size: 18px;
             margin-bottom: 20px;
+
+            a {
+                padding: 8px;
+            }
+
+            a:hover {
+                background-color: #e9dedc;
+                transition: all .2s;
+            }
         }
     }
 }
