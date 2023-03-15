@@ -12,22 +12,20 @@ export default {
         <div class="container">
             <div class="row">
                 <div class="col-hero">
-                    <ul>
-                        <li class="motto">FRESH & TASTY BAKERY EVERY DAY</li>
-                        <li class="title">
-                            <h2>The Perfect Fresh Bread</h2>
-                        </li>
-                        <li class="description">
-                            Cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius.
-                            Aliquam erat volutpat.
-                            Nullam quis sagittis nibh ac nulla id orci tempor.
-                        </li>
-                        <li class="button">
-                            <a href="#">
-                                Explore our products
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="motto">FRESH & TASTY BAKERY EVERY DAY</div>
+                    <div class="title">
+                        <h2>The Perfect Fresh Bread</h2>
+                    </div>
+                    <div class="description">
+                        Cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius.
+                        Aliquam erat volutpat.
+                        Nullam quis sagittis nibh ac nulla id orci tempor.
+                    </div>
+                    <div class="button">
+                        <a href="#">
+                            Explore our products
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -74,14 +72,15 @@ export default {
 
             .title {
                 color: #5b2ca2;
-                font-size: 40px;
+                font-size: 35px;
                 margin-top: 10px;
                 margin-bottom: 15px;
             }
 
             .description {
                 color: #878589;
-                font-size: 20px;
+                font-size: 18px;
+                line-height: 1.5;
                 margin-bottom: 30px;
             }
 
