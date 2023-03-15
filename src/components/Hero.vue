@@ -84,6 +84,8 @@ export default {
                 background-color: white;
                 text-align: center;
                 border-radius: 6px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
             }
         }
 
