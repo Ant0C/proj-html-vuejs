@@ -146,7 +146,6 @@
             .info_img {
                 display: block;
                 position: relative;
-                color: red;
                 top: -50%;
                 left: 0%;
                 z-index: 10;
