@@ -68,7 +68,6 @@ export default {
 .row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 

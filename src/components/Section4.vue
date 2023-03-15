@@ -77,7 +77,7 @@
     gap: 15px;
 
     .col-card01 {
-        background-image: url(/img/bakery-process-1.jpg);
+        background-image: linear-gradient(to bottom, rgba(74, 75, 78, 0.52), rgba(19, 17, 19, 0.753)), url(/img/bakery-process-1.jpg);
         background-position: left center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -94,7 +94,7 @@
 
     .col-card02 {
         flex-basis: 49%;
-        background-image: url(/img/bakery-process-2.jpg);
+        background-image: linear-gradient(to bottom, rgba(74, 75, 78, 0.52), rgba(19, 17, 19, 0.651)), url(/img/bakery-process-2.jpg);
         background-position: right center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -117,7 +117,7 @@
         min-height: 800px;
 
         .motto {
-            color: #878589;
+            color: #e9dedc;
             font-size: 12px;
             line-height: 1.5;
             font-family: 'Roboto', sans-serif;
@@ -134,7 +134,7 @@
     }
 
     .col-card04 {
-        background-image: url(/img/bakery-process-3.jpg);
+        background-image: linear-gradient(to bottom, rgba(74, 75, 78, 0.52), rgba(19, 17, 19, 0.308)), url(/img/bakery-process-3.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -176,7 +176,7 @@
         margin-top: 250px;
 
         .motto {
-            color: #878589;
+            color: #e9dedc;
             font-size: 12px;
             line-height: 1.5;
             font-family: 'Roboto', sans-serif;
